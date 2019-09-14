@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+
+        int a,b,c,n=0;
+        int temp;
+        for(a = 1;a<1000;a++)
+        {
+            for(b=1;b<1000;b++)
+            {
+                for(c=1;c<1000;c++)
+                {
+                    temp =  a*a + b*b;
+                    n = c*c;
+                    if(temp == n)
+                    {
+                           cout<<"a="<<a<<"b="<<b<<"c="<<c<<endl;
+                    }
+
+                }
+            }
+        }
+
+
+}
